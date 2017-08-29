@@ -223,12 +223,8 @@ public class MyArrayList<E> implements List<E> {
 
 	@Override
 	public E set(int index, E element) {
-	    if (index >= size || index < 0) {
-		throw new IndexOutBoundsException();
-	    }
-	    E prevElem = get(index);
-	    array[index] = element;
-	    return prevElem;
+		// TODO: fill in this method.
+		return null;
 	}
 
 	@Override
